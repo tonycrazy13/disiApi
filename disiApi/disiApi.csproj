@@ -128,10 +128,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="images\fotos\" />
     <Folder Include="Models\" />
-    <Folder Include="styleDisi\css\" />
-    <Folder Include="styleDisi\fonts\" />
-    <Folder Include="styleDisi\js\" />
-    <Folder Include="styleDisi\sass\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -186,9 +182,20 @@
     <Content Include="flash\angular-flash.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\carrusel\img_contactar.jpg" />
+    <Content Include="images\carrusel\img_cotizacion.jpg" />
+    <Content Include="images\carrusel\img_creditoSimple.jpg" />
+    <Content Include="images\carrusel\img_estadoCuenta.jpg" />
+    <Content Include="images\carrusel\img_factoraje.jpg" />
+    <Content Include="images\carrusel\img_ordenCompra.jpg" />
+    <Content Include="images\carrusel\img_pagos.jpg" />
+    <Content Include="images\carrusel\img_revolvente.jpg" />
     <Content Include="images\contacto.png" />
     <Content Include="images\cotizacion.png" />
     <Content Include="images\credito.png" />
+    <Content Include="images\disi\home2.jpg" />
+    <Content Include="images\disi\login.png" />
+    <Content Include="images\disi\LOGO_DISI.png" />
     <Content Include="images\edo_cuenta.png" />
     <Content Include="images\ericsson_vertical.png" />
     <Content Include="images\factoraje.PNG" />
@@ -216,12 +223,13 @@
     <Content Include="images\pic14.jpg" />
     <Content Include="images\pic15.jpg" />
     <Content Include="images\principal.jpg" />
-    <Content Include="indexDemo.html" />
-    <Content Include="pages\demo2.html" />
-    <Content Include="pages\demo3.html" />
-    <Content Include="pages\demo4.html" />
-    <Content Include="pages\demo5.html" />
+    <Content Include="index.html" />
     <Content Include="pages\formulario.html" />
+    <Content Include="pages\home.html" />
+    <Content Include="pages\aquisolucion.html" />
+    <Content Include="pages\productos.html" />
+    <Content Include="pages\nosotros.html" />
+    <Content Include="pages\solucion.html" />
     <Content Include="pages\problema.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -244,13 +252,28 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="pages\Prueba Razon.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="styleDisi\css\font-awesome.min.css" />
+    <Content Include="styleDisi\css\ie8.css" />
+    <Content Include="styleDisi\css\images\arrow.svg" />
+    <Content Include="styleDisi\css\main.css" />
+    <Content Include="styleDisi\fonts\fontawesome-webfont.svg" />
+    <Content Include="styleDisi\js\ie\backgroundsize.min.htc" />
+    <Content Include="styleDisi\js\ie\html5shiv.js" />
+    <Content Include="styleDisi\js\ie\PIE.htc" />
+    <Content Include="styleDisi\js\ie\respond.min.js" />
+    <Content Include="styleDisi\js\jquery.dropotron.min.js" />
+    <Content Include="styleDisi\js\jquery.min.js" />
+    <Content Include="styleDisi\js\jquery.onvisible.min.js" />
+    <Content Include="styleDisi\js\jquery.scrolly.min.js" />
+    <Content Include="styleDisi\js\main.js" />
+    <Content Include="styleDisi\js\skel.min.js" />
+    <Content Include="styleDisi\js\util.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -266,6 +289,17 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="styleDisi\fonts\fontawesome-webfont.eot" />
+    <Content Include="styleDisi\fonts\fontawesome-webfont.ttf" />
+    <Content Include="styleDisi\fonts\fontawesome-webfont.woff" />
+    <Content Include="styleDisi\fonts\fontawesome-webfont.woff2" />
+    <Content Include="styleDisi\fonts\FontAwesome.otf" />
+    <Content Include="styleDisi\sass\libs\_functions.scss" />
+    <Content Include="styleDisi\sass\libs\_mixins.scss" />
+    <Content Include="styleDisi\sass\libs\_skel.scss" />
+    <Content Include="styleDisi\sass\libs\_vars.scss" />
+    <Content Include="styleDisi\sass\ie8.scss" />
+    <Content Include="styleDisi\sass\main.scss" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
